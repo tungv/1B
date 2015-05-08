@@ -1,0 +1,12 @@
+date
+coffee index.coffee > seed.coffee
+coffee concat.coffee 0 > /tmp/tmp0
+date
+# coffee concat.coffee 0 > /tmp/tmp0 &
+# coffee concat.coffee 1 > /tmp/tmp1 &
+# coffee concat.coffee 2 > /tmp/tmp2 &
+# coffee concat.coffee 3 > /tmp/tmp3 &
+# wait
+# date
+# cat /tmp/tmp0 /tmp/tmp1 /tmp/tmp2 /tmp/tmp3 > /tmp/tmp
+# date
